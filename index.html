@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/inicio.css">
     <link rel="stylesheet" href="./css/sobre.css">
+    <link rel="stylesheet" href="./css/responsividade.css">
     <title>MyCardTech</title>
 </head>
 <body>
@@ -15,9 +17,13 @@
         <header>
             <img src="./img/logoBranca.png" alt="LOGO">
 
+            <div class="btn-menu">
+               <i onclick="menuu()" class='bx bx-menu' style='color:#ffffff'></i>
+            </div>
+
             <ul>
-                <li><a href=".inicio">Inicio</a></li>                
-                <li><a href=".sobre">Vantagens</a></li>                
+                <li><a href=".inicio">Inicio</a></li>
+                <li><a href=".sobre">Vantagens</a></li>
                 <li><a href="#">Avaliações</a></li>                
                 <li><a href="#">Produtos</a></li>                
                 <li><a href="#">Duvidas</a></li>                    
@@ -81,6 +87,7 @@
 
     <script src="./js/efeitoScroll.js"></script>
     <script src="./js/direcionamentos.js"></script>
+    <script src="./js/menu.js"></script>
 
 </body>
 </html>

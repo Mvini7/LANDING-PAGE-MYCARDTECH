@@ -1,0 +1,110 @@
+@media screen and (max-width: 768px) {
+    .btn-menu {
+        font-size: 35px;
+        display: block;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    header {
+        padding: 15px 30px;
+    }
+
+    header ul {
+        display: none; /* Esconde os links inicialmente */
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 70px; /* Coloca o menu abaixo do cabeçalho */
+        left: 0;
+        z-index: 1; /* Garante que o menu apareça acima do conteúdo */
+    }
+
+    ul li {
+        text-align: center;
+        width: 100%;
+    }
+
+    ul li a {
+        display: block;
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    ul.active {
+        display: flex; /* Exibe o menu quando o botão de menu for clicado */
+    }
+
+    .conteudoInicio {
+        align-items: last baseline;
+    }
+
+    .conteudoInicio {
+        flex-direction: column;
+    }
+
+    .conteudoInicio img {
+        margin-top: 20px;
+        height: 170px;
+    }
+
+    .conteudoInicio .conteudo {
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .conteudoInicio .conteudo p {
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .conteudoInicio .conteudo span {
+        font-size: 20px;
+    }
+
+    .conteudoInicio .conteudo h1 {
+        font-size: 40px;
+    }
+
+    .conteudoInicio .botoes {
+        margin-top: 5px;
+    }
+
+    .conteudoInicio .botoes button {
+        margin-top: 15px;
+        padding: 15px 65px;
+    }
+
+    #duvidas {
+        margin-left: 0;
+        padding: 15px 87px;
+    }
+
+    .sobre .conteudo {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .conteudo {
+        margin-left: -155px;
+    }
+
+    .vantagens h1 {
+        width: 350px;
+        font-size: 35px;
+    }
+
+    .vantagens p {
+        font-size: 20px;
+        margin-top: 15px;
+        width: 350px;
+    }
+
+    .video iframe {
+        margin-top: 10px;
+        width: 350px;
+        height: 340px;
+    }
+}

@@ -140,3 +140,7 @@ header li a:hover {
 .conteudoInicio .botoes button:hover {
     background: #7525ff92;
 }
+
+.btn-menu {
+    display: none;
+}
