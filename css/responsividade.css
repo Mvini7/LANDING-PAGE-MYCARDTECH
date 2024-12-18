@@ -88,8 +88,7 @@
         align-items: baseline;
         justify-content: left;
         width: 100%;
-        margin-top: 25px;
-        margin-left: -15px;
+        margin-top: 20px;
     }
 
     .vantagens h1 {
@@ -104,7 +103,7 @@
     }
 
     .video {
-        margin-left: 0;
+        margin-left: 10px;
     }
 
     .video iframe {
