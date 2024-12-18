@@ -94,6 +94,7 @@
         justify-content: left;
         width: 100%;
         margin-top: 20px;
+        margin-left: 25px;
     }
 
     .vantagens {
@@ -112,7 +113,7 @@
     }
 
     .video {
-        margin-left: 25px;
+        margin-left: 0;
     }
 
     .video iframe {
