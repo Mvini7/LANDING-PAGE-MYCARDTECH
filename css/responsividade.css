@@ -39,10 +39,9 @@
 
     .conteudoInicio {
         align-items: last baseline;
-    }
-
-    .conteudoInicio {
+        justify-content: left;
         flex-direction: column;
+        margin-left: 15px;
     }
 
     .conteudoInicio img {
@@ -52,7 +51,8 @@
 
     .conteudoInicio .conteudo {
         margin-top: 20px;
-        margin-left: 15px;
+        margin-left: 0;
+        justify-content: left;
     }
 
     .conteudoInicio .conteudo p {
@@ -85,10 +85,13 @@
     .sobre .conteudo {
         flex-direction: column;
         align-items: baseline;
+        justify-content: left;
+        width: 100%;
+        margin-top: 10px;
     }
 
-    .conteudo {
-        margin-left: -155px;
+    .vantagens {
+        margin-left: 25px;
     }
 
     .vantagens h1 {
@@ -100,6 +103,10 @@
         font-size: 20px;
         margin-top: 15px;
         width: 350px;
+    }
+
+    .video {
+        margin-left: 0;
     }
 
     .video iframe {
