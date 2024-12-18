@@ -11,14 +11,14 @@
     }
 
     header ul {
-        display: none; /* Esconde os links inicialmente */
+        display: none;
         flex-direction: column;
         width: 100%;
         background-color: #333;
         position: absolute;
-        top: 70px; /* Coloca o menu abaixo do cabeçalho */
+        top: 70px;
         left: 0;
-        z-index: 1; /* Garante que o menu apareça acima do conteúdo */
+        z-index: 1;
     }
 
     ul li {
@@ -34,7 +34,7 @@
     }
 
     ul.active {
-        display: flex; /* Exibe o menu quando o botão de menu for clicado */
+        display: flex;
     }
 
     .conteudoInicio {
@@ -47,6 +47,7 @@
     .conteudoInicio img {
         margin-top: 20px;
         height: 170px;
+        margin-left: 0;
     }
 
     .conteudoInicio .conteudo {
@@ -87,20 +88,17 @@
         align-items: baseline;
         justify-content: left;
         width: 100%;
-        margin-top: 10px;
-    }
-
-    .vantagens {
-        margin-left: 25px;
+        margin-top: 25px;
+        margin-left: -15px;
     }
 
     .vantagens h1 {
         width: 350px;
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .vantagens p {
-        font-size: 20px;
+        font-size: 16px;
         margin-top: 15px;
         width: 350px;
     }
