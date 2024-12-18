@@ -83,12 +83,21 @@
         padding: 15px 87px;
     }
 
+    .sobre {
+        display: flex;
+        align-items: baseline;
+    }
+
     .sobre .conteudo {
         flex-direction: column;
         align-items: baseline;
         justify-content: left;
         width: 100%;
         margin-top: 20px;
+    }
+
+    .vantagens {
+        margin-left: 0;
     }
 
     .vantagens h1 {
@@ -103,7 +112,7 @@
     }
 
     .video {
-        margin-left: 10px;
+        margin-left: 25px;
     }
 
     .video iframe {
