@@ -38,7 +38,7 @@
     }
 
     .conteudoInicio {
-        align-items: last baseline;
+        align-items: baseline;
         justify-content: left;
         flex-direction: column;
         margin-left: 15px;
