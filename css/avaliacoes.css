@@ -36,6 +36,7 @@
 .depoimentos {
     display: flex;
     align-items: center;
+    margin-top: 48px;
 }
 
 .depoimento1 {
