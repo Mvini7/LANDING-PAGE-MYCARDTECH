@@ -1,40 +1,52 @@
 @media screen and (max-width: 768px) {
-    .btn-menu {
-        font-size: 35px;
+    header .menu {
         display: block;
         z-index: 1;
         cursor: pointer;
     }
 
-    header {
-        padding: 15px 30px;
+    header .menu i {
+        font-size: 40px;
     }
 
-    header ul {
+    header {
+        padding: 15px 30px;
+        align-items: center;
+    }
+
+    #menu-links {
         display: none;
         flex-direction: column;
         width: 100%;
-        background-color: #333;
+        height: 100vh;
+        background-color: #01010181;
         position: absolute;
         top: 70px;
         left: 0;
         z-index: 1;
     }
 
-    ul li {
-        text-align: center;
+    #menu-links li {
+        text-align: end;
         width: 100%;
+        margin-left: -15px;
     }
 
-    ul li a {
+    #menu-links li a {
         display: block;
         padding: 15px;
         width: 100%;
         box-sizing: border-box;
+        font-size: 45px;
+        transition: 0.35s;
     }
 
-    ul.active {
-        display: flex;
+    #menu-links li a:hover {
+        font-size: 50px;
+    }
+
+    #menu-links.active {
+        display: block;
     }
 
     .conteudoInicio {

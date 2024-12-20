@@ -26,6 +26,7 @@ header img {
 header ul {
     display: flex;
     align-items: center;
+    list-style: none;
 }
 
 header li {
