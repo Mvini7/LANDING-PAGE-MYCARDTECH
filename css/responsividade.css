@@ -121,4 +121,32 @@
         width: 350px;
         height: 340px;
     }
+
+    .avaliacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .avaliacoes .depoimentos {
+        display: none;
+    }
+
+    .avaliacoes .texto {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .avaliacoes .texto h1 {
+        font-size: 25px;
+        width: 350px;
+    }
+
+    .avaliacoes .texto p {
+        font-size: 16px;
+    }
 }

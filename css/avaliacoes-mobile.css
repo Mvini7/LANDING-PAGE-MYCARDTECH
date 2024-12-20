@@ -1,0 +1,38 @@
+.avaliacoes-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .avaliacoes-mobile {
+        position: relative;
+        height: 100vh;
+        background: #e7e3ff;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .avaliacoes-mobile .depoimentos {
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+        margin-top: -50px;
+    }
+    
+    .avaliacoes-mobile .depoimento1, 
+    .avaliacoes-mobile .depoimento2, 
+    .avaliacoes-mobile .depoimento3 {
+        margin-left: 0px;
+        margin-top: 10px;
+        height: 250px;
+        width: 370px;
+    }
+    
+    .avaliacoes-mobile .depoimento1 p, 
+    .avaliacoes-mobile .depoimento2 p, 
+    .avaliacoes-mobile .depoimento3 p {
+        width: 350px;
+        margin-top: -10px;
+        font-size: 13px;
+    }
+}
