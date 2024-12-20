@@ -12,13 +12,13 @@
     margin-left: 0px;
 }
 
-@media screen and (max-width: 758px) {
+@media screen and (max-width: 768px) {
     .produtos-mobile2 {
         display: flex;
     }
 
     .produtos-mobile2 .produto3 {
-        margin-top: -270px;
+        margin-top: -320px;
     }
 
     .produtos-mobile2 .texto {
