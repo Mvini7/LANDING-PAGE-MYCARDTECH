@@ -97,3 +97,49 @@
 .produto2, .produto3 {
     margin-left: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .produtos .alguns-produtos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        margin-top: 35px;
+    }
+
+    .alguns-produtos .produto3 {
+        display: none;
+    }
+
+    .alguns-produtos .produto2 {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .produtos .texto {
+        margin-top: 500px;
+    }
+
+    .produtos .texto h1 {
+        font-size: 30px;
+    }
+
+    .produtos .texto p {
+        width: 350px;
+    }
+
+    .produtos-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .produtos-mobile .produto2 {
+        margin-top: 200px;
+    }
+
+    .produtos .carousel-item img {
+        height: 210px;
+    }
+}

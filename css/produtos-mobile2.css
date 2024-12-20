@@ -1,0 +1,63 @@
+.produtos-mobile2 {
+    position: relative;
+    height: 100vh;
+    background: #e7e3ff;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.produtos-mobile2 .produto3 {
+    margin-left: 0px;
+}
+
+@media screen and (max-width: 758px) {
+    .produtos-mobile2 {
+        display: flex;
+    }
+    
+    .produtos-mobile2 .produto3 {
+        margin-top: -345px;
+    }
+
+    .produtos-mobile2 .texto {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .produtos-mobile2 .texto h1 {
+        color: #7525ff;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        width: 450px;
+    }
+
+    .produtos-mobile2 .texto p {
+        color: #000;
+        font-size: 20px;
+        text-align: center;
+        width: 420px;
+    }
+
+    .produtos-mobile2 .texto button {
+        padding: 15px 90px;
+        border: none;
+        background: #7525ff;
+        color: aliceblue;
+        font-size: 17px;
+        font-weight: 700;
+        border-radius: 50px;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.698);
+        transition: 0.25s;
+        margin-top: 45px;
+    }
+
+    produtos-mobile2 .texto button:hover {
+        background: #531bb4;
+    }
+}

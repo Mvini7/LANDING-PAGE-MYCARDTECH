@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./css/avaliacoes.css">
     <link rel="stylesheet" href="./css/avaliacoes-mobile.css">
     <link rel="stylesheet" href="./css/produtos.css">
+    <link rel="stylesheet" href="./css/pordutos-mobile.css">
+    <link rel="stylesheet" href="./css/produtos-mobile2.css">
     <title>MyCardTech</title>
 </head>
 <body>
@@ -259,7 +261,7 @@
         </div>
     </section>
 
-    <div class="produtos">
+    <section class="produtos" id="carrossel">
         <div class="texto">
             <h1 class="item">Conheça nossos produtos.</h1>
             <p class="item">
@@ -401,12 +403,75 @@
             </div>
 
         </div>
-    </div>
+    </section>
+
+    <section class="produtos-mobile">
+        
+    </section>
+
+    <section class="produtos-mobile2">
+        <div class="produto produto3 item">
+            <div style="width: 230px;" id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" style="border-radius: 15px;">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img style="margin-left: 15px;" height="225px" src="./img/card-preto.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img style="margin-left: 15px;" height="225px" src="./img/card-azul.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img style="margin-left: 15px;" height="225px" src="./img/card-vermelho.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="descricao">
+                <h1>Cardtech Business</h1>
+                <p>
+                    Seu kit profissional para se destacar de 
+                    todas as formas e em todas as ocasiões. 
+                    Todas as funcionalidades por um preço incrível. 
+                    O cartão de visitas mais barato e inteligente 
+                    do mercado, com integração de Painel CRM.
+                </p>
+
+                <div class="preco2">
+                    <h1>R$ 129,90</h1>
+                </div>
+
+                <div class="comprar">
+                    <button id="checkout3">Comprar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="texto">
+            <h1 class="item">
+                Conecte-se de Forma Inovadora com a Mycardtech
+            </h1>
+            <p class="item">
+                Garanta Agora o seu CardTech. Se ainda possui
+                duvidas sobre a MyCardTech ou sobre os nossos produtos 
+                entre em contato.
+            </p>
+
+            <button id="entreContato">Entre em contato</button>
+        </div>
+    </section>
 
     <script src="./js/efeitoScroll.js"></script>
     <script src="./js/direcionamentos.js"></script>
     <script src="./js/menu.js"></script>
     <script src="./js/produtos.js"></script>
+    <script src="./js/carrossel-produtos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
