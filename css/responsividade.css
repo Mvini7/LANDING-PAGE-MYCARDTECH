@@ -143,6 +143,7 @@
 
     .avaliacoes .depoimentos {
         display: none;
+        margin-top: 45px;
     }
 
     .avaliacoes .texto {

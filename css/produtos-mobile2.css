@@ -16,9 +16,9 @@
     .produtos-mobile2 {
         display: flex;
     }
-    
+
     .produtos-mobile2 .produto3 {
-        margin-top: -345px;
+        margin-top: -200px;
     }
 
     .produtos-mobile2 .texto {
@@ -41,7 +41,7 @@
         color: #000;
         font-size: 20px;
         text-align: center;
-        width: 420px;
+        width: 380px;
     }
 
     .produtos-mobile2 .texto button {
