@@ -2,7 +2,7 @@
     position: relative;
     height: 100vh;
     background: #e7e3ff;
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -10,6 +10,47 @@
 
 .produtos-mobile2 .produto3 {
     margin-left: 0px;
+    display: none;
+}
+
+.produtos-mobile2 .texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.produtos-mobile2 .texto h1 {
+    color: #7525ff;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.produtos-mobile2 .texto p {
+    color: #000;
+    font-size: 25px;
+    text-align: center;
+    width: 700px;
+    margin-top: 35px;
+}
+
+.produtos-mobile2 .texto button {
+    padding: 20px 200px;
+    border: none;
+    background: #7525ff;
+    color: aliceblue;
+    font-size: 19px;
+    font-weight: 700;
+    border-radius: 50px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.698);
+    transition: 0.25s;
+    margin-top: 41px;
+}
+
+.produtos-mobile2 .texto button:hover {
+    background: #531bb4;
 }
 
 @media screen and (max-width: 768px) {
@@ -18,6 +59,7 @@
     }
 
     .produtos-mobile2 .produto3 {
+        display: block;
         margin-top: -358px;
     }
 

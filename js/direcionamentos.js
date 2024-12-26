@@ -6,3 +6,23 @@ document.querySelectorAll('header li a').forEach(anchor => {
         });
     });
 });
+
+const produtosBtn = document.getElementById("produtos");
+const duvidasBtn = document.getElementById("duvidas");
+
+    // Função para rolar suavemente até a seção com o ID fornecido
+function rolarParaSecao(id) {
+    const secao = document.getElementById(id);
+    secao.scrollIntoView({
+        behavior: "smooth" // Rolagem suave
+    });
+}
+
+// Adicionando eventos de clique aos botões
+produtosBtn.addEventListener("click", function() {
+    rolarParaSecao("produtos-section");
+});
+
+duvidasBtn.addEventListener("click", function() {
+    rolarParaSecao("duvidas-section");
+});
