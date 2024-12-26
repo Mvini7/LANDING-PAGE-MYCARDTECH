@@ -59,7 +59,7 @@
     }
 
     .produtos-mobile2 .produto3 {
-        display: block;
+        display: flex;
         margin-top: -358px;
     }
 
