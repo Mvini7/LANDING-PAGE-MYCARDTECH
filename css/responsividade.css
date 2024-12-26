@@ -1,4 +1,9 @@
 @media screen and (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;  /* Bloqueia o scroll horizontal */
+        overflow-y: auto;    /* Permite o scroll vertical */
+    }
+    
     header .menu {
         display: block;
         z-index: 1;
