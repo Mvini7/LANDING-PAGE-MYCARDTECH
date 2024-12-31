@@ -35,3 +35,9 @@ produtosBtn.addEventListener("click", function() {
 duvidasBtn.addEventListener("click", function() {
     rolarParaSecao("duvidas-section");
 });
+
+const duvidas = document.getElementById('entreContato')
+
+duvidas.addEventListener('click', function() {
+    window.location.href = 'https://wa.me//5585982124767'
+})
