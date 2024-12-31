@@ -119,3 +119,9 @@ hr {
     color: aliceblue;
     font-size: 17px;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        height:  715px;
+    }
+}

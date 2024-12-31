@@ -15,9 +15,3 @@ const checkout3 = document.getElementById('checkout3')
 checkout3.addEventListener('click', function() {
         window.location.href = 'https://mycardtech.pay.yampi.com.br/r/EAUSNQJMFY'
 })
-
-const checkout3_2 = document.getElementById('checkout3_2')
-
-checkout3_2.addEventListener('click', function() {
-        window.location.href = 'https://mycardtech.pay.yampi.com.br/r/EAUSNQJMFY'
-})

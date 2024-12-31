@@ -167,4 +167,37 @@
         font-size: 16px;
         width: 400px;
     }
+
+    .footer .algunsLinkFooter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer .sobreLink, .footer .links, .footer .redesSociais {
+        margin-left: 25px;
+    }
+
+    .footer .links, .footer .redesSociais {
+        margin-top: 50px;
+    }
+
+    .footer .sobreLink a, .footer .links a, .footer .redesSociais a {
+        font-size: 20px;
+    }
+
+    .footer .redesSociais li a {
+        font-size: 30px;
+    }
+
+    .footer .sobreLink a, .footer .links a, .footer .redesSociais a {
+        font-size: 20px;
+    }
+
+    .footer .sobreLink a:hover, .footer .links a:hover {
+        font-size: 22px;
+    }
+
+    .footer .redesSociais li a i:hover {
+        font-size: 32px;
+    }
 }
