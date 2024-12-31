@@ -7,6 +7,15 @@ document.querySelectorAll('header li a').forEach(anchor => {
     });
 });
 
+document.querySelectorAll('.linkSobreFooter a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault(); // Impede o comportamento padrão do link
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth' // Rolagem suave
+        });
+    });
+});
+
 const produtosBtn = document.getElementById("produtos");
 const duvidasBtn = document.getElementById("duvidas");
 
