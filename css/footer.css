@@ -1,0 +1,121 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background: #212121;
+}
+
+.algunsLinkFooter {
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+}
+
+.sobreLink, .links, .redesSociais {
+    margin-top: 65px;
+}
+
+.sobreLink h2 {
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.sobreLink .linkSobreFooter {
+    margin-top: 30px;
+}
+
+.sobreLink a {
+    margin-top: 55px;
+    font-size: 15px;
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.35s;
+}
+
+.sobreLink a:hover {
+    color: #7525ff;
+    font-size: 17px;
+}
+
+.links {
+    margin-left: 150px;
+}
+
+.links h2 {
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.links a {
+    font-size: 15px;
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.35s;
+}
+
+
+.links .afiliados {
+    margin-top: 30px;
+}
+
+.links .politicaPrivacidade {
+    margin-top: 10px;
+}
+
+.links .termos {
+    margin-top: 10px;
+}
+
+.links a:hover {
+    color: #7525ff;
+    font-size: 17px;
+}
+
+.redesSociais {
+    margin-left: 150px;
+}
+
+.redesSociais h2 {
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.redesSociais a {
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.35s;
+}
+
+.redesSociais ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.redesSociais ul {
+    margin-top: 30px;
+    display: flex;
+    margin-left: -52px;
+}
+
+.redesSociais li a i:hover {
+    color: #7525ff;
+    font-size: 22px;
+}
+
+hr {
+    border: solid 1px #ffffff;
+    margin-top: 85px;
+}
+
+.copyWrite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.copyWrite p {
+    color: aliceblue;
+    font-size: 17px;
+}
