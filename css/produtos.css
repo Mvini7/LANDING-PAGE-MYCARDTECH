@@ -66,7 +66,7 @@
 
 .descricao .preco1 h1 {
     font-size: 30px;
-    margin-top: 35px;
+    margin-top: 0px;
 }
 
 .descricao .preco2 h1 {
@@ -96,6 +96,35 @@
 
 .produto2, .produto3 {
     margin-left: 30px;
+}
+
+.color-option {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 2px;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid #ddd;
+}
+
+.color-black { background-color: black; }
+.color-blue { background-color: blue; }
+.color-red { background-color: red; }
+.selected {
+    z-index: 5;
+    border: 2px solid black;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.checkout-link:hover {
+  background-color: #218838;
 }
 
 @media screen and (max-width: 768px) {

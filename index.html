@@ -276,7 +276,7 @@
             
             <div class="produto produto1 item">
                 <div class="imgProduto">
-                    <img height="224px" src="./img/gifCards.gif" alt="">
+                    <img id="product-image" height="224px" src="./img/gifCards.gif" alt="">
                 </div>
 
                 <div class="descricao">
@@ -288,12 +288,20 @@
                         com integração de painel CRM.
                     </p>
 
+                    <div class="color-selector">
+                        <span id="color-black" class="color-option color-black" onclick="changeColor('black')"></span>
+                        <span id="color-blue" class="color-option color-blue" onclick="changeColor('blue')"></span>
+                        <span id="color-red" class="color-option color-red" onclick="changeColor('red')"></span>
+                    </div>
+
                     <div class="preco1">
                         <h1>R$ 69,90</h1>
                     </div>
 
                     <div class="comprar">
-                        <button id="checkout1">Comprar</button>
+                        <a id="checkout-link" class="checkout-link" href="https://mycardtech.pay.yampi.com.br/r/AWGWNRU2U9">
+                            <button>Comprar</button>
+                        </a>
                     </div>
                 </div>
             </div>
