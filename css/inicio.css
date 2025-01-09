@@ -356,7 +356,7 @@ header li a:hover {
     }
 }
 
-@media screen and (min-width: 380px) and (max-width: 767px) and (min-height: 680px) and (max-height: 720px) {
+@media screen and (min-width: 380px) and (max-width: 767px) and (min-height: 670px) and (max-height: 720px) {
     html, body {
         overflow-x: hidden;  /* Bloqueia o scroll horizontal */
         overflow-y: auto;    /* Permite o scroll vertical */
@@ -422,7 +422,7 @@ header li a:hover {
 
     .conteudoInicio img {
         margin-top: 25px;
-        height: 200px;
+        height: 170px;
         margin-left: 0;
     }
 
@@ -438,12 +438,12 @@ header li a:hover {
     }
 
     .conteudoInicio .conteudo span {
-        font-size: 20px;
+        font-size: 17px;
         margin-top: 5px;
     }
 
     .conteudoInicio .conteudo h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .conteudoInicio .botoes {

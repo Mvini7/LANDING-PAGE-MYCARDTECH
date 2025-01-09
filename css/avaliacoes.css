@@ -166,7 +166,7 @@ font-size: 15px;
     }
 }
 
-@media screen and (min-width: 380px) and (max-width: 767px) and (min-height: 680px) and (max-height: 720px) {
+@media screen and (min-width: 380px) and (max-width: 767px) and (min-height: 670px) and (max-height: 720px) {
     .avaliacoes {
         display: flex;
         align-items: center;
@@ -188,7 +188,7 @@ font-size: 15px;
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        margin-top: -80px;
+        margin-top: -50px;
     }
     
     .avaliacoes .texto h1 {

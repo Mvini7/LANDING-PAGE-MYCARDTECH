@@ -226,7 +226,7 @@
     }
 }
 
-@media screen and (min-width: 380px) and (max-width: 767px) and (min-height: 680px) and (max-height: 720px) {
+@media screen and (min-width: 380px) and (max-width: 767px) and (min-height: 670px) and (max-height: 720px) {
     .produtos {
         position: relative;
         height: 800px;
@@ -262,7 +262,7 @@
 
     .produtos .texto h1 {
         font-size: 30px;
-        margin-top: 350px;
+        margin-top: 380px;
     }
 
     .produtos .texto p {
