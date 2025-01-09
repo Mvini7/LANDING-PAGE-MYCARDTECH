@@ -342,6 +342,111 @@ header li a:hover {
     }
 
     .conteudoInicio .botoes {
+        margin-top: 5px;
+    }
+
+    .conteudoInicio .botoes button {
+        margin-top: 15px;
+        padding: 15px 65px;
+    }
+
+    #duvidas {
+        margin-left: 0;
+        padding: 15px 87px;
+    }
+}
+
+@media screen and (min-width: 380px) and (max-width: 767px) and (min-height: 680px) and (max-height: 720px) {
+    html, body {
+        overflow-x: hidden;  /* Bloqueia o scroll horizontal */
+        overflow-y: auto;    /* Permite o scroll vertical */
+    }
+    
+    header .menu {
+        display: block;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    header .menu i {
+        font-size: 40px;
+    }
+
+    header {
+        padding: 15px 30px;
+        align-items: center;
+    }
+
+    #menu-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        background-color: #01010181;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        z-index: 1;
+    }
+
+    #menu-links li {
+        text-align: end;
+        width: 100%;
+        margin-left: -15px;
+    }
+
+    #menu-links li a {
+        display: block;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 40px;
+        transition: 0.35s;
+    }
+
+    #menu-links li a:hover {
+        font-size: 44px;
+    }
+
+    #menu-links.active {
+        display: block;
+    }
+
+    .conteudoInicio {
+        align-items: baseline;
+        justify-content: left;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-top: 60px;
+    }
+
+    .conteudoInicio img {
+        margin-top: 25px;
+        height: 200px;
+        margin-left: 0;
+    }
+
+    .conteudoInicio .conteudo {
+        margin-top: 15px;
+        margin-left: 0;
+        justify-content: left;
+    }
+
+    .conteudoInicio .conteudo p {
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .conteudoInicio .conteudo span {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .conteudoInicio .conteudo h1 {
+        font-size: 35px;
+    }
+
+    .conteudoInicio .botoes {
         margin-top: -10px;
     }
 
