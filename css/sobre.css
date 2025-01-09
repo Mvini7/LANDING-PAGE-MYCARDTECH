@@ -47,3 +47,85 @@
     opacity: 1;
     transform: translateY(0);
 }
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .sobre {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .sobre .conteudo {
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: left;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 13px;
+    }
+
+    .vantagens {
+        margin-left: 0;
+    }
+
+    .vantagens h1 {
+        width: 350px;
+        font-size: 30px;
+    }
+
+    .vantagens p {
+        font-size: 16px;
+        margin-top: 15px;
+        width: 350px;
+    }
+
+    .video {
+        margin-left: 0;
+    }
+
+    .video iframe {
+        margin-top: 10px;
+        width: 350px;
+        height: 340px;
+    }
+}
+
+@media screen and (min-width: 380px) and (max-width: 767px) {
+    .sobre {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .sobre .conteudo {
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: left;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .vantagens {
+        margin-left: 0;
+    }
+
+    .vantagens h1 {
+        width: 350px;
+        font-size: 30px;
+    }
+
+    .vantagens p {
+        font-size: 16px;
+        margin-top: 15px;
+        width: 350px;
+    }
+
+    .video {
+        margin-left: 0;
+    }
+
+    .video iframe {
+        margin-top: 10px;
+        width: 350px;
+        height: 340px;
+    }
+}

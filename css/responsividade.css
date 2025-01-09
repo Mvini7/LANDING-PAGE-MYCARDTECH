@@ -1,172 +1,41 @@
-@media screen and (max-width: 768px) {
-    html, body {
-        overflow-x: hidden;  /* Bloqueia o scroll horizontal */
-        overflow-y: auto;    /* Permite o scroll vertical */
-    }
+@media screen and (min-width: 320px) and (max-width: 375px) {
     
-    header .menu {
-        display: block;
-        z-index: 1;
-        cursor: pointer;
-    }
 
-    header .menu i {
-        font-size: 40px;
-    }
-
-    header {
-        padding: 15px 30px;
-        align-items: center;
-    }
-
-    #menu-links {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        height: 100vh;
-        background-color: #01010181;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        z-index: 1;
-    }
-
-    #menu-links li {
-        text-align: end;
-        width: 100%;
-        margin-left: -15px;
-    }
-
-    #menu-links li a {
-        display: block;
-        padding: 15px;
-        width: 100%;
-        box-sizing: border-box;
-        font-size: 45px;
-        transition: 0.35s;
-    }
-
-    #menu-links li a:hover {
-        font-size: 50px;
-    }
-
-    #menu-links.active {
-        display: block;
-    }
-
-    .conteudoInicio {
-        align-items: baseline;
-        justify-content: left;
-        flex-direction: column;
-        margin-left: 15px;
-    }
-
-    .conteudoInicio img {
-        margin-top: 20px;
-        height: 170px;
-        margin-left: 0;
-    }
-
-    .conteudoInicio .conteudo {
-        margin-top: 20px;
-        margin-left: 0;
-        justify-content: left;
-    }
-
-    .conteudoInicio .conteudo p {
-        font-size: 18px;
-        width: 300px;
-    }
-
-    .conteudoInicio .conteudo span {
-        font-size: 20px;
-    }
-
-    .conteudoInicio .conteudo h1 {
-        font-size: 40px;
-    }
-
-    .conteudoInicio .botoes {
-        margin-top: 5px;
-    }
-
-    .conteudoInicio .botoes button {
-        margin-top: 15px;
-        padding: 15px 65px;
-    }
-
-    #duvidas {
-        margin-left: 0;
-        padding: 15px 87px;
-    }
-
-    .sobre {
+    .footer .algunsLinkFooter {
         display: flex;
-        align-items: baseline;
+        flex-direction: column;
     }
 
-    .sobre .conteudo {
-        flex-direction: column;
-        align-items: baseline;
-        justify-content: left;
-        width: 100%;
-        margin-top: 20px;
+    .footer .sobreLink, .footer .links, .footer .redesSociais {
         margin-left: 25px;
     }
 
-    .vantagens {
-        margin-left: 0;
+    .footer .links, .footer .redesSociais {
+        margin-top: 50px;
     }
 
-    .vantagens h1 {
-        width: 350px;
+    .footer .sobreLink a, .footer .links a, .footer .redesSociais a {
+        font-size: 20px;
+    }
+
+    .footer .redesSociais li a {
         font-size: 30px;
     }
 
-    .vantagens p {
-        font-size: 16px;
-        margin-top: 15px;
-        width: 350px;
+    .footer .sobreLink a, .footer .links a, .footer .redesSociais a {
+        font-size: 20px;
     }
 
-    .video {
-        margin-left: 0;
+    .footer .sobreLink a:hover, .footer .links a:hover {
+        font-size: 22px;
     }
 
-    .video iframe {
-        margin-top: 10px;
-        width: 350px;
-        height: 340px;
+    .footer .redesSociais li a i:hover {
+        font-size: 32px;
     }
+}
 
-    .avaliacoes {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .avaliacoes .depoimentos {
-        display: none;
-    }
-
-    .avaliacoes .texto {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .avaliacoes .texto h1 {
-        font-size: 25px;
-        width: 380px;
-    }
-
-    .avaliacoes .texto p {
-        font-size: 16px;
-        width: 400px;
-    }
+@media screen and (min-width: 380px) and (max-width: 767px) {
 
     .footer .algunsLinkFooter {
         display: flex;
