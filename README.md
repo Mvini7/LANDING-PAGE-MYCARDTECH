@@ -20,6 +20,10 @@ Este projeto foi criado para uma microempresa especializada em criar cartões de
 - **Design Responsivo**: O site é otimizado para diferentes dispositivos, incluindo desktop, tablet e mobile.
 - **Ícones Interativos**: Usando Boxicons para ícones modernos e responsivos.
 
+## UM POUCO DO PROJETO
+
+![PROJETO](projeto.png)
+
 ## Link do Projeto
 
 Você pode acessar o site do projeto no seguinte link:  
